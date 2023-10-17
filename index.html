@@ -2,6 +2,39 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkMode</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+    <style>
+
+        #toggle{
+            display: inline-flex;
+            padding: 5px;
+            border-radius: 1.5em;
+            background-color: #82d8ff;
+        }
+        #toggle i{
+            font-size: 1.5em;
+            padding: 5px;
+            background-color: #fff;
+            color: #666;
+        }
+        #light-mode{
+            border-radius: 50% 0 0 50%;
+        }
+        #dark-mode{
+            border-radius: 0 50% 50% 0;
+        }
+        #toggle input{
+            display: none;
+        }
+        #toggle input[type=radio]:checked + label > i {
+            background-color: #82d8ff;
+            color: #fff;
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>대한민국 검색사이트 한글</title>
   <meta name="description" content="대한민국 다양한 사이트에서 검색!
