@@ -1,3 +1,25 @@
+document.addEventListener('DOMContentLoaded', ()=>{
+    document.getElementById('toggle').addEventListener("click", e=>{
+        if(e.target.id == 'dark-mode'){
+            document.body.classList.add("dark-mode");
+        }else if(e.target.id == 'light-mode'){
+            document.body.classList.remove("dark-mode");
+        }
+    },false);        
+})
+
+    document.getElementById('toggle').addEventListener("click", ()=>{ //다크모드 토글 클릭 발생
+    let colorMode = localStorage.getItem("colorMode");
+
+    if(colorMode == 'dark'){ // 현재 값이 다크모드이면
+        localStorage.setItem("colorMode", "light");
+        document.body.classList.remove("dark-mode");
+    }else{
+        localStorage.setItem("colorMode", "dark");
+        document.body.classList.add("dark-mode");
+    }
+},false);
+
 h1 {
     text-align: center;
     margin-top: 230px;
