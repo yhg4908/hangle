@@ -40,6 +40,14 @@ h1{
     font-family: 'Black Han Sans', sans-serif;
     font-weight: 400;
 }
+
+  h2 span:nth-child(1) {
+    color: rgb(237, 76, 0);
+  }
+
+  h2 span:nth-child(2) {
+    color: rgb(54, 18, 187);
+  }
   
 .search-bar {
     width: 400px;
