@@ -48,6 +48,10 @@ h1{
   h2 span:nth-child(2) {
     color: rgb(54, 18, 187);
   }
+
+  h3 span:nth-child(1) {
+    background: rgb(255, 0, 0);
+  }
   
 .search-bar {
     width: 400px;
