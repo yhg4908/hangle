@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 sitemap:https://xn--c79am2ag62b7mt.xn--oi2b61z32a.xn--3e0b707e/sitemap.xml
-#DaumWebMasterTool:f90506526ed552a2f74f4aa685e68b334c255a91c005f23b191700f52def8e28:x6Dec16zIsqgdXdYvcC0Hg==
+#DaumWebMasterTool:f574cbaebfb905d249d0a4676d1812252b4a622dc56c20866872f793b93834cd:x6Dec16zIsqgdXdYvcC0Hg==
